@@ -1,0 +1,24 @@
+{
+  "name": "hrm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "dev": "node webpack-dev-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "socket.io": "^4.3.2",
+    "webpack": "^5.62.1",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.4.0"
+  },
+  "dependencies": {
+    "memory-fs": "^0.5.0",
+    "mime": "^3.0.0"
+  }
+}
